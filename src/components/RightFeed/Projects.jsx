@@ -73,10 +73,9 @@ const Project = () => {
                         </Typography>
                         {
                            project.labels.map(item=>{
-                       return <Chip icon={item.icon} label={item.label} onClick={()=>{}} size="small" style={{backgroundColor:"#2196F3", color:"white", marginRight:"2px"}} />
+                       return <Chip icon={item.icon} label={item.label} onClick={()=>{}} size="small" style={{backgroundColor:"#2196F3", color:"white", marginRight:"2px", marginBottom:"2px"}} />
                             })
                         }
-                        
                         <Typography variant="body2" color="text.secondary">
                             {project.description}
                         </Typography>

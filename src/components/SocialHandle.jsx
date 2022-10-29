@@ -25,7 +25,7 @@ const socialHandleData = [
 ]
 
 const SocialHandle = () => {
-    return <div style={{ textAlign: "center" }}>
+    return <div style={{ textAlign: "center", marginBottom:"5px" }}>
         {
             socialHandleData.map(social => {
                 return <a href={social.url} target="_blank">
