@@ -11,8 +11,9 @@ import SocialHandle from './SocialHandle';
 
 const LeftFeed = () => {
     return <Grid item xs={12} md={3}>
-        <div style={{ height: "100vh", backgroundColor: "#F4F5F7" }}>
-            {/* image */}
+        <div style={{ height: "100vh", backgroundColor: "#F4F5F7", display:"flex", alignItems:"center", borderRadius:"30px" }}>
+            <div>
+                {/* image */}
             <div style={{ display: "flex", justifyContent: "center", paddingTop: "10px" }}>
                 <img src={profilePic} style={{ margin: "auto", height: "120%", width: "75%", borderRadius: "50%" }} />
             </div>
@@ -34,6 +35,7 @@ const LeftFeed = () => {
                 <Button variant="contained" startIcon={<CgProfile />} size="small">
                     View Resume
                 </Button>
+            </div>
             </div>
 
         </div>
