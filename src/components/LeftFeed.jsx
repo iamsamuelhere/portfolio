@@ -2,12 +2,12 @@ import { Grid, IconButton, Button } from '@mui/material';
 
 import { HiSpeakerWave } from "react-icons/hi2";
 import { MdOutlineWork, MdEmail, MdLocationOn } from "react-icons/md";
-import { GrLinkedin, GrGithub, GrTwitter } from "react-icons/gr";
 import { CgProfile } from "react-icons/cg";
 
 
 import profilePic from '../images/profile.jpg';
 import textToSpeech from '../utils/textToSpeech';
+import SocialHandle from './SocialHandle';
 
 const LeftFeed = () => {
     return <Grid item xs={12} md={3}>
@@ -28,26 +28,7 @@ const LeftFeed = () => {
                 <li><MdLocationOn /> Bangalore, India</li>
             </ul>
             {/* socialLinks */}
-            <div style={{ textAlign: "center" }}>
-                <a href="https://www.linkedin.com/in/iamsamuelt/" target="_blank">
-                    <IconButton>
-                        <GrLinkedin style={{ color: "#0A66C2" }} />
-                    </IconButton>
-                </a>
-                <a href="https://github.com/iamsamuelhere" target="blank">
-
-                    <IconButton>
-                        <GrGithub style={{ color: "#24292F" }} />
-                    </IconButton>
-                </a>
-                <a href="https://twitter.com/iamsamuelcool" target="_blank">
-
-                    <IconButton>
-                        <GrTwitter style={{ color: "#1C96E8" }} />
-                    </IconButton>
-                </a>
-
-            </div>
+            <SocialHandle />
 
             <div style={{ textAlign: "center", marginTop: "3px" }}>
                 <Button variant="contained" startIcon={<CgProfile />} size="small">
