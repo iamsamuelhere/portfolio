@@ -3,7 +3,7 @@ import Feed from './components/Feed.jsx';
 
 const App = ()=>{
     return <>
-     <Header/>
+     {/* <Header/> */}
      <Feed/>
     </>
 }
