@@ -66,7 +66,7 @@ const Project = () => {
                 {projectData.map(project=>{
                     return <Grid item sm={12} md={6} >
                     
-                    <Card>
+                    <Card style={{ marginRight: "7px", marginBottom: "7px"}}>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             {project.title}
