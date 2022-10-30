@@ -31,9 +31,9 @@ const LeftFeed = () => {
             {/* socialLinks */}
             <SocialHandle />
 
-            <div style={{ textAlign: "center", marginTop: "3px",  }}>
+            <div style={{ textAlign: "center", marginTop: "5px",  }}>
                 <a style={{textDecoration:"none"}}href="https://drive.google.com/file/d/1Uix_PpkNBl0SKwZNjSe2ZnPPuDI0FGj3/view?usp=sharing" target="_blank">
-                <Button variant="contained" startIcon={<CgProfile />} size="small">
+                <Button variant="contained" startIcon={<CgProfile />} >
                     View Resume
                 </Button>
                 </a>

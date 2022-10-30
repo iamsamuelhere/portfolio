@@ -2,6 +2,7 @@ import Grid from '@mui/material/Grid';
 import { TypeAnimation } from 'react-type-animation';
 
 import WorkExperience from './workExperience';
+import Skills from './Skills';
 import Project from './Projects';
 import Education from './Education';
 import ContactForm from './ContactForm';
@@ -25,6 +26,7 @@ const RightFeed = () => {
             />
         </div>
         <WorkExperience/>
+        <Skills/>
         <Project/>
         <Education/>
         <ContactForm/>

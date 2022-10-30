@@ -7,7 +7,7 @@ const ContactForm = ()=>{
       <TextField label="Your Name" variant="outlined" size="small" style={{marginBottom:"6px"}} fullWidth/><br/>
       <TextField label="Email" variant="outlined" size="small"style={{marginBottom:"6px"}} fullWidth/> <br/>
       <TextField label="Your Message" variant="outlined" size="small" style={{marginBottom:"6px"}} multiline rows={3}fullWidth />
-      <div style={{display:"flex",justifyContent:"center"}}><Button variant="contained" endIcon={<IoSend />} size="small" fullWidth>Send</Button></div>
+      <div style={{display:"flex",justifyContent:"center"}}><Button variant="contained" endIcon={<IoSend />} fullWidth>Send</Button></div>
       </div>
     </div>
 }
