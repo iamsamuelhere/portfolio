@@ -5,4 +5,4 @@
 <h2>
 Stack: 
 </h2>
-<h3> ReactJS | Firebase-Analytics | RestAPIs </h3>
+<h3> ReactJS | RestAPIs | Firebase-Analytics</h3>
