@@ -21,7 +21,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://portfolio-backend-apis.herokuapp.com/sendmail", {
+      const response = await axios.post("https://portfolio-service-apis.vercel.app/sendmail", {
         ...formData,
         "time": new Date().toLocaleString("en-GB")
       })
