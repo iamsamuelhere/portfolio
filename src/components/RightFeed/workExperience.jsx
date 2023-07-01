@@ -9,11 +9,22 @@ const WorkExperience = ()=>{
     layout='1-column-left'
     lineColor='#2196F3'
     >
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="May 2022 - Present"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<MdOutlineWork/>}
+  >
+    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Allstate</h4>
+    </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="July 2022 - Present"
+    date="July 2022 - April 2023 | 10 Months"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<MdOutlineWork/>}
   >
