@@ -24,8 +24,8 @@ const LeftFeed = () => {
                 </IconButton>
             </p>
             <ul style={{ listStyle: "none" }}>
-                <li><MdOutlineWork />Associate Software Eng at Allstate</li>
-                <li><MdEmail /> iamsamuelhere@gmail.com</li>
+                <li><MdOutlineWork /> Software Engineer at Allstate</li>
+                <li><MdEmail /><a href="mailto:iamsamuelhere@gmail.com"> iamsamuelhere@gmail.com</a></li>
                 <li><MdLocationOn /> Bangalore, India</li>
             </ul>
             {/* socialLinks */}
