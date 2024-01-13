@@ -1,6 +1,6 @@
 # Portfolio Site
 
-🚀<a href="https://iamsamuel.works"> https://iamsamuel.works </a>
+🚀<a href="https://iamsamuelhere.github.io/portfolio/">https://iamsamuelhere.github.io/portfolio/ </a>
 
 <h2>
 Stack: 
