@@ -5,7 +5,7 @@ import { MdOutlineWork, MdEmail, MdLocationOn } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 
 
-import profilePic from '../images/profile.jpg';
+import profilePic from '../images/profile.jpeg';
 import textToSpeech from '../utils/textToSpeech';
 import SocialHandle from './SocialHandle';
 
@@ -15,7 +15,7 @@ const LeftFeed = () => {
             <div>
                 {/* image */}
             <div style={{ display: "flex", justifyContent: "center", paddingTop: "10px" }}>
-                <img src={profilePic} style={{ margin: "auto", height: "120%", width: "75%", borderRadius: "50%" }} />
+                <img src={profilePic} style={{ margin:"auto", height:"75%", width:"75%", borderRadius: "50%" }} />
             </div>
             {/* Intro */}
             <p style={{ textAlign: "center" }}>Samuel T
@@ -32,7 +32,7 @@ const LeftFeed = () => {
             <SocialHandle />
 
             <div style={{ textAlign: "center", marginTop: "5px",  }}>
-                <a style={{textDecoration:"none"}}href="https://drive.google.com/file/d/1Uix_PpkNBl0SKwZNjSe2ZnPPuDI0FGj3/view?usp=sharing" target="_blank">
+                <a style={{textDecoration:"none"}}href="https://drive.google.com/file/d/1InbTNbiIBrApiw3RB1xy9AArCctD-jTP/view?usp=sharing" target="_blank">
                 <Button variant="contained" startIcon={<CgProfile />} >
                     View Resume
                 </Button>
