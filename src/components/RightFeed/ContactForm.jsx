@@ -111,7 +111,7 @@ const ContactForm = () => {
       <h2 >Want to say something?</h2>
       <form onSubmit={handleSubmit}>
         <TextField name='name' value={formData.name} onChange={handleChange} label="Your Name" variant="outlined" size="small" style={{ marginBottom: "6px" }} fullWidth required /><br />
-        <TextField name='emailId' value={formData.email} onChange={handleChange} label="Email" variant="outlined" size="small" style={{ marginBottom: "6px" }} fullWidth required /> <br />
+        <TextField name='emailId' value={formData.email} onChange={handleChange} label="Your Email" variant="outlined" size="small" style={{ marginBottom: "6px" }} fullWidth required /> <br />
         <TextField name='message' value={formData.message} onChange={handleChange} label="Your Message" variant="outlined" size="small" style={{ marginBottom: "6px" }} multiline rows={3} fullWidth required />
         <div style={{ display: "flex", justifyContent: "center" }}>
           <Button type='submit' variant="contained" endIcon={<IoSend />} fullWidth>Send</Button>
