@@ -37,7 +37,7 @@ const WorkExperience = () => {
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<MdOutlineWork />}
       >
-        <h3 className="vertical-timeline-element-title">Associate Engineer</h3>
+        <h3 className="vertical-timeline-element-title">Associate Engineer - Developer</h3>
         <h4 className="vertical-timeline-element-subtitle">Allstate</h4>
         <li>
         Built an Customer facing Chatbot. To handle queries with digital Insurance,
@@ -47,6 +47,11 @@ const WorkExperience = () => {
         Built POCs to demonstrate the capabilities of Amazon Connect for Chat, SMS,
           Voice Channels which lead to Leadership decision to Migrate to Amazon
           Connect.
+          </li>
+          <li>
+        Recognized as Star Performer (Sept '22) - Deliverables as per timelines,
+        Collaborating with Team and SubTeams to resolve Issues and Suggestions to improve the product,
+        Actively Participating in Cohorts.
           </li>
           <li>
           Worked on : NodeJS, AWS, Amazon Connect, Git, CI/CD-Jenkins, Integrating

@@ -1,15 +1,23 @@
 import { Grid, IconButton, Button } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import {useTheme} from '@mui/material/styles';
+
+
 
 import { HiSpeakerWave } from "react-icons/hi2";
-import { MdOutlineWork, MdEmail, MdLocationOn } from "react-icons/md";
-import { CgProfile } from "react-icons/cg";
+import { MdOutlineWork, MdEmail, MdLocationOn,  MdKeyboardDoubleArrowDown   } from "react-icons/md";
 
 
 import profilePic from '../images/profile.jpeg';
 import textToSpeech from '../utils/textToSpeech';
 import SocialHandle from './SocialHandle';
 
+
+
 const LeftFeed = () => {
+    const theme = useTheme();
+    const isLowerMediumResolution = useMediaQuery(theme.breakpoints.down("md"))
+
     return <Grid item xs={12} md={3}>
         <div style={{ height: "100vh", backgroundColor: "#F4F5F7", display:"flex", alignItems:"center", borderRadius:"30px" }}>
             <div>
@@ -24,20 +32,18 @@ const LeftFeed = () => {
                 </IconButton>
             </p>
             <ul style={{ listStyle: "none" }}>
-                <li><MdOutlineWork /> Software Engineer at Allstate</li>
-                <li><MdEmail /><a href="mailto:iamsamuelhere@gmail.com"> iamsamuelhere@gmail.com</a></li>
-                <li><MdLocationOn /> Bangalore, India</li>
+                <li><MdOutlineWork style={{ color: "#0A66C2" }}  /> Software Engineer at Allstate</li>
+                <li><MdEmail style={{ color: "#0A66C2" }}  /><a href="mailto:iamsamuelhere@gmail.com"> iamsamuelhere@gmail.com</a></li>
+                <li><MdLocationOn style={{ color: "#0A66C2" }}  /> Bangalore, India</li>
             </ul>
             {/* socialLinks */}
             <SocialHandle />
-
-            <div style={{ textAlign: "center", marginTop: "5px",  }}>
-                <a style={{textDecoration:"none"}}href="https://drive.google.com/file/d/1InbTNbiIBrApiw3RB1xy9AArCctD-jTP/view?usp=sharing" target="_blank">
-                <Button variant="contained" startIcon={<CgProfile />} >
-                    View Resume
-                </Button>
-                </a>
-            </div>
+            {isLowerMediumResolution&&
+            <div style={{display:"flex", justifyContent:"center", margin:"10px"}}>
+            <MdKeyboardDoubleArrowDown size={'2em'}   style={{ color: "#0A66C2", height:"2em"}} />
+                </div>
+            }
+            
             </div>
 
         </div>
