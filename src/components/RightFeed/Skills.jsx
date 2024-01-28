@@ -16,6 +16,10 @@ const skillData = [
         "label": "ExpressJS"
     },
     {
+        "icon": <GrReactjs style={{ color: "white" }} size="20px" />,
+        "label": "React Native"
+    }
+    {
         "icon": <SiFlutter style={{ color: "white" }} size="20px" />,
         "label": "Flutter"
     },
