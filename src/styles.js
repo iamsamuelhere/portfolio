@@ -1,1 +1,1 @@
-export const headerUnderlineStyle = { textAlign: "center", textDecoration:"underline", textDecorationColor:"#1C96E8", textDecorationStyle:"wavy"}
+export const headerUnderlineStyle = { textAlign: "center", textDecoration:"underline", textDecorationColor:"#2196F3", textDecorationStyle:"wavy"}
