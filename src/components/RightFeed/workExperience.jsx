@@ -17,7 +17,7 @@ const WorkExperience = () => {
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<MdOutlineWork />}
       >
-        <h3 className="vertical-timeline-element-title">Senior Software Developer</h3>
+        <h3 className="vertical-timeline-element-title">Senior Software Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">American Airlines</h4>
 
         <p style={{ marginLeft: "5px" }}>
