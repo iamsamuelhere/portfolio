@@ -18,7 +18,7 @@ const RightFeed = () => {
             <h1>I build</h1>
             <TypeAnimation
                 cursor={false}
-                sequence={[' <FullStack Apps/>', 1000, ' <Hybrid Mobile Apps/>', 1000, ' <Chatbots/>', 1000]}
+                sequence={[' <FullStack Apps/>', 1000, ' <Hybrid Mobile Apps/>', 1000, ' <Chatbots/>', 1000, ' <Apps on Cloud/>', 1000]}
                 style={{ color: "#1C96E8",marginLeft:"5px" }}
                 repeat={Infinity}
                 wrapper="h1" 

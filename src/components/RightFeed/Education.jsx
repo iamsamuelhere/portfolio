@@ -1,10 +1,10 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { MdSchool } from "react-icons/md";
-
+import { headerUnderlineStyle } from "../../styles";
 const Education = ()=>{
     return <>
-        <h2 style={{textAlign:"center"}}>Education</h2>
+        <h2 style={headerUnderlineStyle}>Education</h2>
         <VerticalTimeline
     layout='1-column-left'
     lineColor='#2196F3'

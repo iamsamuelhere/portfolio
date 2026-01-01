@@ -1,7 +1,9 @@
 import { Card, CardMedia, CardContent, CardActions, Typography, Grid, Chip, Button } from '@mui/material';
 import { GrReactjs } from 'react-icons/gr';
 import {FaNodeJs} from 'react-icons/fa';
-import {SiFlutter, SiMongodb, SiMysql, SiFirebase, SiExpress, SiAmazonaws, SiJavascript, SiPostman} from 'react-icons/si'
+import {SiFlutter, SiMongodb, SiMysql, SiFirebase, SiExpress, SiAmazonaws, SiJavascript, SiPostman, SiDocker } from 'react-icons/si'
+import { headerUnderlineStyle } from "../../styles";
+
 const skillData = [
     {
         "icon": <GrReactjs style={{ color: "white" }} size="20px" />,
@@ -40,6 +42,10 @@ const skillData = [
         "label": "AWS"
     },
     {
+        "icon": <SiDocker style={{ color: "white" }} size="20px" />,
+        "label": "Docker"
+    },
+    {
         "icon": <SiJavascript style={{ color: "white" }} size="20px" />,
         "label": "JavaScipt"
     },
@@ -59,7 +65,7 @@ const skillData = [
 
 const Skills = () => {
     return <>
-        <h2 style={{ textAlign: "center" }}>Technologies & Tools</h2>
+        <h2 style={headerUnderlineStyle}>Technologies & Tools</h2>
         <Card>
             <CardContent>
                 {

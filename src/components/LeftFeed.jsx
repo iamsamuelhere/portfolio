@@ -32,9 +32,9 @@ const LeftFeed = () => {
                 </IconButton>
             </p>
             <ul style={{ listStyle: "none" }}>
-                <li><MdOutlineWork style={{ color: "#0A66C2" }}  /> Software Engineer at Allstate</li>
+                <li><MdOutlineWork style={{ color: "#0A66C2" }}  /> Senior Software Engineer at American Airlines</li>
                 <li><MdEmail style={{ color: "#0A66C2" }}  /><a href="mailto:iamsamuelhere@gmail.com"> iamsamuelhere@gmail.com</a></li>
-                <li><MdLocationOn style={{ color: "#0A66C2" }}  /> Bangalore, India</li>
+                <li><MdLocationOn style={{ color: "#0A66C2" }}  /> Hyderabad, India</li>
             </ul>
             {/* socialLinks */}
             <SocialHandle />

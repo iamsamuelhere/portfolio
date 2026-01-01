@@ -1,5 +1,6 @@
-import { Card, CardMedia, CardContent, CardActions, Typography, Grid, Chip,Button } from '@mui/material';
+import { Card, CardContent, Typography, Grid, Chip,Button } from '@mui/material';
 import { SiFlutter,SiFirebase,SiSqlite, SiExpress, SiNodedotjs, SiMysql } from "react-icons/si";
+import { headerUnderlineStyle } from "../../styles";
 
 const projectData = [
     {
@@ -60,7 +61,7 @@ const projectData = [
 
 const Project = () => {
     return <>
-        <h2 style={{ textAlign: "center" }}>Personal Projects</h2>
+        <h2 style={headerUnderlineStyle}>Personal Projects</h2>
         <Grid container >
             
                 {projectData.map(project=>{
